@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC9B16040C72CAD920F4796 /* libPods-ReactiveObjC_TestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 890FFA699FE5307068EA3C97 /* libPods-ReactiveObjC_TestTests.a */; };
+		46DD650E6EEDDAD51410C945 /* libPods-ReactiveObjC_Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B36C9556F4E6539DE0580D /* libPods-ReactiveObjC_Test.a */; };
+		5FF5F719DF734772723C1D41 /* libPods-ReactiveObjC_TestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C7A158ACA9A6BAC105EBC5 /* libPods-ReactiveObjC_TestUITests.a */; };
+		E1E9B2312011C63A00AF5454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9B2302011C63A00AF5454 /* AppDelegate.m */; };
+		E1E9B2342011C63A00AF5454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9B2332011C63A00AF5454 /* ViewController.m */; };
+		E1E9B2372011C63A00AF5454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E9B2352011C63A00AF5454 /* Main.storyboard */; };
+		E1E9B2392011C63A00AF5454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E9B2382011C63A00AF5454 /* Assets.xcassets */; };
+		E1E9B23C2011C63A00AF5454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E9B23A2011C63A00AF5454 /* LaunchScreen.storyboard */; };
+		E1E9B23F2011C63A00AF5454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9B23E2011C63A00AF5454 /* main.m */; };
+		E1E9B2492011C63A00AF5454 /* ReactiveObjC_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9B2482011C63A00AF5454 /* ReactiveObjC_TestTests.m */; };
+		E1E9B2542011C63A00AF5454 /* ReactiveObjC_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9B2532011C63A00AF5454 /* ReactiveObjC_TestUITests.m */; };
+		E1E9B2632011D29C00AF5454 /* SubjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9B2622011D29C00AF5454 /* SubjectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1E9B2452011C63A00AF5454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E9B2242011C63A00AF5454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E9B22B2011C63A00AF5454;
+			remoteInfo = ReactiveObjC_Test;
+		};
+		E1E9B2502011C63A00AF5454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E9B2242011C63A00AF5454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E9B22B2011C63A00AF5454;
+			remoteInfo = ReactiveObjC_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE081F86D9CFD4CDFB3F39A /* Pods-ReactiveObjC_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjC_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjC_Test/Pods-ReactiveObjC_Test.release.xcconfig"; sourceTree = "<group>"; };
+		65C7A158ACA9A6BAC105EBC5 /* libPods-ReactiveObjC_TestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveObjC_TestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890FFA699FE5307068EA3C97 /* libPods-ReactiveObjC_TestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveObjC_TestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1B2C586FC9D465BCB6FA54 /* Pods-ReactiveObjC_TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjC_TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjC_TestUITests/Pods-ReactiveObjC_TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A01EE482A0E36D7DE222FF1C /* Pods-ReactiveObjC_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjC_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjC_Test/Pods-ReactiveObjC_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		A31B7BC3954209380014050A /* Pods-ReactiveObjC_TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjC_TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjC_TestUITests/Pods-ReactiveObjC_TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFB47957C3A95C321ECE65AA /* Pods-ReactiveObjC_TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjC_TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjC_TestTests/Pods-ReactiveObjC_TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0B36C9556F4E6539DE0580D /* libPods-ReactiveObjC_Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveObjC_Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E9B22C2011C63A00AF5454 /* ReactiveObjC_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveObjC_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E9B22F2011C63A00AF5454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1E9B2302011C63A00AF5454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1E9B2322011C63A00AF5454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1E9B2332011C63A00AF5454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1E9B2362011C63A00AF5454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1E9B2382011C63A00AF5454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E9B23B2011C63A00AF5454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E9B23D2011C63A00AF5454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E9B23E2011C63A00AF5454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1E9B2442011C63A00AF5454 /* ReactiveObjC_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjC_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E9B2482011C63A00AF5454 /* ReactiveObjC_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveObjC_TestTests.m; sourceTree = "<group>"; };
+		E1E9B24A2011C63A00AF5454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E9B24F2011C63A00AF5454 /* ReactiveObjC_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjC_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E9B2532011C63A00AF5454 /* ReactiveObjC_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveObjC_TestUITests.m; sourceTree = "<group>"; };
+		E1E9B2552011C63A00AF5454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E9B2612011D29C00AF5454 /* SubjectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectView.h; sourceTree = "<group>"; };
+		E1E9B2622011D29C00AF5454 /* SubjectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectView.m; sourceTree = "<group>"; };
+		F89B9EF01E9DF501C3DBDB8D /* Pods-ReactiveObjC_TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjC_TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjC_TestTests/Pods-ReactiveObjC_TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E9B2292011C63A00AF5454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DD650E6EEDDAD51410C945 /* libPods-ReactiveObjC_Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E9B2412011C63A00AF5454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC9B16040C72CAD920F4796 /* libPods-ReactiveObjC_TestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E9B24C2011C63A00AF5454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF5F719DF734772723C1D41 /* libPods-ReactiveObjC_TestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36154C1050D3B33F562A93E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A01EE482A0E36D7DE222FF1C /* Pods-ReactiveObjC_Test.debug.xcconfig */,
+				0BE081F86D9CFD4CDFB3F39A /* Pods-ReactiveObjC_Test.release.xcconfig */,
+				F89B9EF01E9DF501C3DBDB8D /* Pods-ReactiveObjC_TestTests.debug.xcconfig */,
+				AFB47957C3A95C321ECE65AA /* Pods-ReactiveObjC_TestTests.release.xcconfig */,
+				8A1B2C586FC9D465BCB6FA54 /* Pods-ReactiveObjC_TestUITests.debug.xcconfig */,
+				A31B7BC3954209380014050A /* Pods-ReactiveObjC_TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1E9B2232011C63A00AF5454 = {
+			isa = PBXGroup;
+			children = (
+				E1E9B22E2011C63A00AF5454 /* ReactiveObjC_Test */,
+				E1E9B2472011C63A00AF5454 /* ReactiveObjC_TestTests */,
+				E1E9B2522011C63A00AF5454 /* ReactiveObjC_TestUITests */,
+				E1E9B22D2011C63A00AF5454 /* Products */,
+				36154C1050D3B33F562A93E8 /* Pods */,
+				F1ECA0138AB4F9F2564F18FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E9B22D2011C63A00AF5454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9B22C2011C63A00AF5454 /* ReactiveObjC_Test.app */,
+				E1E9B2442011C63A00AF5454 /* ReactiveObjC_TestTests.xctest */,
+				E1E9B24F2011C63A00AF5454 /* ReactiveObjC_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E9B22E2011C63A00AF5454 /* ReactiveObjC_Test */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9B22F2011C63A00AF5454 /* AppDelegate.h */,
+				E1E9B2302011C63A00AF5454 /* AppDelegate.m */,
+				E1E9B2322011C63A00AF5454 /* ViewController.h */,
+				E1E9B2332011C63A00AF5454 /* ViewController.m */,
+				E1E9B2612011D29C00AF5454 /* SubjectView.h */,
+				E1E9B2622011D29C00AF5454 /* SubjectView.m */,
+				E1E9B2352011C63A00AF5454 /* Main.storyboard */,
+				E1E9B2382011C63A00AF5454 /* Assets.xcassets */,
+				E1E9B23A2011C63A00AF5454 /* LaunchScreen.storyboard */,
+				E1E9B23D2011C63A00AF5454 /* Info.plist */,
+				E1E9B23E2011C63A00AF5454 /* main.m */,
+			);
+			path = ReactiveObjC_Test;
+			sourceTree = "<group>";
+		};
+		E1E9B2472011C63A00AF5454 /* ReactiveObjC_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9B2482011C63A00AF5454 /* ReactiveObjC_TestTests.m */,
+				E1E9B24A2011C63A00AF5454 /* Info.plist */,
+			);
+			path = ReactiveObjC_TestTests;
+			sourceTree = "<group>";
+		};
+		E1E9B2522011C63A00AF5454 /* ReactiveObjC_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9B2532011C63A00AF5454 /* ReactiveObjC_TestUITests.m */,
+				E1E9B2552011C63A00AF5454 /* Info.plist */,
+			);
+			path = ReactiveObjC_TestUITests;
+			sourceTree = "<group>";
+		};
+		F1ECA0138AB4F9F2564F18FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0B36C9556F4E6539DE0580D /* libPods-ReactiveObjC_Test.a */,
+				890FFA699FE5307068EA3C97 /* libPods-ReactiveObjC_TestTests.a */,
+				65C7A158ACA9A6BAC105EBC5 /* libPods-ReactiveObjC_TestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E9B22B2011C63A00AF5454 /* ReactiveObjC_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E9B2582011C63A00AF5454 /* Build configuration list for PBXNativeTarget "ReactiveObjC_Test" */;
+			buildPhases = (
+				985A8CC4E135341784375802 /* [CP] Check Pods Manifest.lock */,
+				E1E9B2282011C63A00AF5454 /* Sources */,
+				E1E9B2292011C63A00AF5454 /* Frameworks */,
+				E1E9B22A2011C63A00AF5454 /* Resources */,
+				9E53264DECF0140EAED346F8 /* [CP] Embed Pods Frameworks */,
+				A7DA733AB27C0EDEC93F61A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveObjC_Test;
+			productName = ReactiveObjC_Test;
+			productReference = E1E9B22C2011C63A00AF5454 /* ReactiveObjC_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1E9B2432011C63A00AF5454 /* ReactiveObjC_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E9B25B2011C63A00AF5454 /* Build configuration list for PBXNativeTarget "ReactiveObjC_TestTests" */;
+			buildPhases = (
+				3E4DED77604FACB2818A8806 /* [CP] Check Pods Manifest.lock */,
+				E1E9B2402011C63A00AF5454 /* Sources */,
+				E1E9B2412011C63A00AF5454 /* Frameworks */,
+				E1E9B2422011C63A00AF5454 /* Resources */,
+				7A0D88C400FE53BC29704B38 /* [CP] Embed Pods Frameworks */,
+				88C7BDEAE527B2E2A93CCD2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E9B2462011C63A00AF5454 /* PBXTargetDependency */,
+			);
+			name = ReactiveObjC_TestTests;
+			productName = ReactiveObjC_TestTests;
+			productReference = E1E9B2442011C63A00AF5454 /* ReactiveObjC_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1E9B24E2011C63A00AF5454 /* ReactiveObjC_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E9B25E2011C63A00AF5454 /* Build configuration list for PBXNativeTarget "ReactiveObjC_TestUITests" */;
+			buildPhases = (
+				9FA2B3C36E2E676E249D622B /* [CP] Check Pods Manifest.lock */,
+				E1E9B24B2011C63A00AF5454 /* Sources */,
+				E1E9B24C2011C63A00AF5454 /* Frameworks */,
+				E1E9B24D2011C63A00AF5454 /* Resources */,
+				42ED87F1CD2633BC56ECCBEE /* [CP] Embed Pods Frameworks */,
+				7C7352DE4F5D9BD929FDC1FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E9B2512011C63A00AF5454 /* PBXTargetDependency */,
+			);
+			name = ReactiveObjC_TestUITests;
+			productName = ReactiveObjC_TestUITests;
+			productReference = E1E9B24F2011C63A00AF5454 /* ReactiveObjC_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E9B2242011C63A00AF5454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "孙世玉";
+				TargetAttributes = {
+					E1E9B22B2011C63A00AF5454 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E1E9B2432011C63A00AF5454 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1E9B22B2011C63A00AF5454;
+					};
+					E1E9B24E2011C63A00AF5454 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1E9B22B2011C63A00AF5454;
+					};
+				};
+			};
+			buildConfigurationList = E1E9B2272011C63A00AF5454 /* Build configuration list for PBXProject "ReactiveObjC_Test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E9B2232011C63A00AF5454;
+			productRefGroup = E1E9B22D2011C63A00AF5454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E9B22B2011C63A00AF5454 /* ReactiveObjC_Test */,
+				E1E9B2432011C63A00AF5454 /* ReactiveObjC_TestTests */,
+				E1E9B24E2011C63A00AF5454 /* ReactiveObjC_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E9B22A2011C63A00AF5454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E9B23C2011C63A00AF5454 /* LaunchScreen.storyboard in Resources */,
+				E1E9B2392011C63A00AF5454 /* Assets.xcassets in Resources */,
+				E1E9B2372011C63A00AF5454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E9B2422011C63A00AF5454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E9B24D2011C63A00AF5454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E4DED77604FACB2818A8806 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjC_TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42ED87F1CD2633BC56ECCBEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveObjC_TestUITests/Pods-ReactiveObjC_TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0D88C400FE53BC29704B38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveObjC_TestTests/Pods-ReactiveObjC_TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7352DE4F5D9BD929FDC1FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveObjC_TestUITests/Pods-ReactiveObjC_TestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C7BDEAE527B2E2A93CCD2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveObjC_TestTests/Pods-ReactiveObjC_TestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985A8CC4E135341784375802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjC_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E53264DECF0140EAED346F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveObjC_Test/Pods-ReactiveObjC_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA2B3C36E2E676E249D622B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjC_TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DA733AB27C0EDEC93F61A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveObjC_Test/Pods-ReactiveObjC_Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E9B2282011C63A00AF5454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E9B2342011C63A00AF5454 /* ViewController.m in Sources */,
+				E1E9B23F2011C63A00AF5454 /* main.m in Sources */,
+				E1E9B2312011C63A00AF5454 /* AppDelegate.m in Sources */,
+				E1E9B2632011D29C00AF5454 /* SubjectView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E9B2402011C63A00AF5454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E9B2492011C63A00AF5454 /* ReactiveObjC_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E9B24B2011C63A00AF5454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E9B2542011C63A00AF5454 /* ReactiveObjC_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1E9B2462011C63A00AF5454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E9B22B2011C63A00AF5454 /* ReactiveObjC_Test */;
+			targetProxy = E1E9B2452011C63A00AF5454 /* PBXContainerItemProxy */;
+		};
+		E1E9B2512011C63A00AF5454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E9B22B2011C63A00AF5454 /* ReactiveObjC_Test */;
+			targetProxy = E1E9B2502011C63A00AF5454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1E9B2352011C63A00AF5454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E9B2362011C63A00AF5454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1E9B23A2011C63A00AF5454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E9B23B2011C63A00AF5454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E9B2562011C63A00AF5454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1E9B2572011C63A00AF5454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E9B2592011C63A00AF5454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01EE482A0E36D7DE222FF1C /* Pods-ReactiveObjC_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveObjC_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oldkids.ReactiveObjC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1E9B25A2011C63A00AF5454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE081F86D9CFD4CDFB3F39A /* Pods-ReactiveObjC_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveObjC_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oldkids.ReactiveObjC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1E9B25C2011C63A00AF5454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89B9EF01E9DF501C3DBDB8D /* Pods-ReactiveObjC_TestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveObjC_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oldkids.ReactiveObjC-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveObjC_Test.app/ReactiveObjC_Test";
+			};
+			name = Debug;
+		};
+		E1E9B25D2011C63A00AF5454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB47957C3A95C321ECE65AA /* Pods-ReactiveObjC_TestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveObjC_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oldkids.ReactiveObjC-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveObjC_Test.app/ReactiveObjC_Test";
+			};
+			name = Release;
+		};
+		E1E9B25F2011C63A00AF5454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1B2C586FC9D465BCB6FA54 /* Pods-ReactiveObjC_TestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveObjC_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oldkids.ReactiveObjC-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveObjC_Test;
+			};
+			name = Debug;
+		};
+		E1E9B2602011C63A00AF5454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31B7BC3954209380014050A /* Pods-ReactiveObjC_TestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReactiveObjC_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oldkids.ReactiveObjC-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveObjC_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E9B2272011C63A00AF5454 /* Build configuration list for PBXProject "ReactiveObjC_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E9B2562011C63A00AF5454 /* Debug */,
+				E1E9B2572011C63A00AF5454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E9B2582011C63A00AF5454 /* Build configuration list for PBXNativeTarget "ReactiveObjC_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E9B2592011C63A00AF5454 /* Debug */,
+				E1E9B25A2011C63A00AF5454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E9B25B2011C63A00AF5454 /* Build configuration list for PBXNativeTarget "ReactiveObjC_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E9B25C2011C63A00AF5454 /* Debug */,
+				E1E9B25D2011C63A00AF5454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E9B25E2011C63A00AF5454 /* Build configuration list for PBXNativeTarget "ReactiveObjC_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E9B25F2011C63A00AF5454 /* Debug */,
+				E1E9B2602011C63A00AF5454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E9B2242011C63A00AF5454 /* Project object */;
+}
